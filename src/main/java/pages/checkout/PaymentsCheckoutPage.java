@@ -13,7 +13,7 @@ public class PaymentsCheckoutPage extends BasePage {
     @FindBy(css = "#payment-option-1")
     private WebElement payByCheck;
 
-    @FindBy(css = "#conditions_to_approve\\[terms-and-conditions\\]")
+    @FindBy(css = "#conditions_to_approve[terms-and-conditions]")
     private WebElement acceptTerms;
 
     @FindBy(css = "#payment-confirmation > div.ps-shown-by-js > button")

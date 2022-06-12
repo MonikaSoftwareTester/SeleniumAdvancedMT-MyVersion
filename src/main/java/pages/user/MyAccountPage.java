@@ -10,7 +10,7 @@ public class MyAccountPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//*[@id=\"history-link\"]/span")
+    @FindBy(xpath = "//*[@id='history-link']/span")
     private WebElement ordersHistory;
 
     public void goToHistoryOfOrders() {
